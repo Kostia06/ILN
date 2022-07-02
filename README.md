@@ -295,3 +295,5 @@ Code bellow is the best practice of writting code
   -This programming langauge is written with Lua
   
   -KOS is short for my name
+
+© Kostia 2022
