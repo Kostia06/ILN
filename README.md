@@ -1,5 +1,5 @@
 # KOS
-
+  This is the first version of the KOS programming langauge
 # ABOUT
   1. Python and Javascript syntax based
   2. Block based, meaning uses space to indetify different parts of code
@@ -7,7 +7,7 @@
   4. Dynamic based meaning no type annotations needed
   5. Simple, because there are only few keywords
 # VARIABLES
-  ## Declarations
+  1. ## Declarations
   To declare variables 
   ```
     name = 'Kostia'
@@ -33,7 +33,7 @@
     answered = false
     nothing = nil
   ```
-  ## Print and Input
+  2. ## Print and Input
   Use print keyword to print out text
   ```
     age = 16
@@ -65,7 +65,7 @@
     print choice 
     ~Output: 21
   ```
- ## Operators
+   3. ## Operators
    They are only four operators: +=, -=, *=, /=
    ```
      num = 5
@@ -80,7 +80,7 @@
    print num
    ~Output: 7
    ```
-   ## Semicolons
+   4. ## Semicolons
    Like javascript it uses to separate statements/actions
    In this languages it uses to separate declarations and operators
    The main purpose of semicolons is to declare or operate in a single line
@@ -95,7 +95,7 @@
    # BLOCKS
    Blocks in this coding language are if statements, for loop, while loops, functions and pages.
    they are saparated by four spaces or by tab like in Python
-   ## If statements
+   1. ## If statements
    Inequalities: ==, !=, <=, >=, <, >
    if statement is used for conditional execution
    ```
@@ -119,11 +119,11 @@
        print 'asked is false'
    ~Output: asked is true
    ```
-   ## For loops
+   2. ## For loops
    For loops is used to repeat, a specific lines of code, a fixed number of timer
    As arguments you can put an string, number or list
    Like if statements it uses spaces to know which lines to execute
-   ### For loops using strings
+    For loops using strings
    ```
    name = 'Kostia' <- Note string has 6 characters
    for index, i in name  
@@ -162,7 +162,7 @@
    3Jeff
    4Alex
    ```
-   ## While loops
+   3. ## While loops
    While loops are used to repeat specific number of lines, as long as condition is true
    Like for loops and if statements, it uses spaces to indentify executable lines
    ```
@@ -180,7 +180,7 @@
        num += 1
    ~Output: prints out number 20 times
    ```
-   ## Functions
+   4. ## Functions
    Function is a block of organized code that is used to perform a single task when it is called
    You declrare function by add fun keyword, following name of the function and arguments
    Arguments inside function are automatically delcared local
@@ -198,8 +198,9 @@
    ~Output: 6
    ```
    You can call functions as much as you want
-   ## Pages
+   5.## Pages
    If you have mutiple files and you want to use them together then use keyword use and following file that you desire
+   
    **Main.txt**
    ``` 
    use 'add'
@@ -211,5 +212,35 @@
    number = 12
    ```
    The keyword use, what it does is when it is called, it reads the following file and goes throw the code and let the user to use variables and functions.
+   Best practice for this is to create require file and put every require file in there because it can be overwhelming
    
-   
+  # Error Handeling
+  As of today there is no error handing what so ever, but there is a debug tool
+  it will be added in the future
+  
+  # Things to know
+  Program ignores full lines with this sign ->
+  Since this programming language is a block based, sometimes it doesnt know where is the end of the block, for example, in here the code wouldn't know where is the end because there is not futher code to read
+  ```
+  fun add(num1, num2)
+      print num1 + num2
+  ```
+Code bellow is the best practice of writting code
+  ```
+  fun add(num1, num2)
+      print num1 + num2
+  ->
+  ```
+  or
+  ```
+  fun add(num1, num2)
+      print num1 + num2
+  fun sub(num1, num2)
+      print num1 - num2
+  ->
+  ```
+  This includes: if statements, for loops and while loops.
+  # Fun Facts
+  -The original name for this programming langauge is supposed to be Lucy, but it was already taken
+  -This programming langauge is written with Lua
+  -KOS is short for my name
