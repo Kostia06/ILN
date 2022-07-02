@@ -6,6 +6,8 @@
   3. Scripted, meaning executes one command at a time
   4. Dynamic based meaning no type annotations needed
   5. Simple, because there are only few keywords
+# REQUIRMENTS
+  Need to have Lua installed
 # VARIABLES
   1. ## Declarations
   To declare variables 
@@ -254,11 +256,11 @@
    The keyword use, what it does is when it is called, it reads the following file and goes throw the code and let the user to use variables and functions.
    Best practice for this is to create require file and put every require file in there because it can be overwhelming
    
-  # Error Handeling
+  # ERROR HANDELING
   As of today there is no error handing what so ever, but there is a debug tool
   it will be added in the future
   
-  # Things to know
+  # IMPORTANT
   1. ## Spacing
   Program ignores full lines with this sign ->
   Since this programming language is a block based, sometimes it doesnt know where is the end of the block, for example, in here the code wouldn't know where is the end because there is not futher code to read
@@ -289,7 +291,8 @@ Code bellow is the best practice of writting code
   When it asks what file would you like to run you add , and say true or false for debug. For example,
   Calculator/main, true
   
-  # Fun Facts
+  # FUN FACTS
+  
   -The original name for this programming langauge is supposed to be Lucy, but it was already taken
   
   -This programming langauge is written with Lua
