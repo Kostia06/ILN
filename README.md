@@ -100,12 +100,12 @@
    
    Lists have buildin functions as well
    
-   -add()
+   -append()
    -removeName()
    -removeIndex()
    ```
    names = ['Kostia', 'Jeff', 'Lucy']
-   names.add('Alex')
+   names.append('Alex')
    print names
    ~Output: [Kostia, Jeff, Lucy, Alex]
    ```
