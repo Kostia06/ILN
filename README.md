@@ -296,4 +296,4 @@ Code bellow is the best practice of writting code
   
   -KOS is short for my name
 
-© Kostia 2022
+© 2022 Kostia Ilnytskyi
