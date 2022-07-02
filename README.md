@@ -80,7 +80,21 @@
    print num
    ~Output: 7
    ```
-   4. ## Semicolons
+   5. ## BuildIn functions
+   
+   You can get number of character in a string or number of items of a list by using # in front of variable
+   ```
+   list = [1,2,3,4,5,6,'hello', 'goodbye']
+   print #list
+   ~Output: 8
+   ```
+   Or you can check index of the string or list
+   ```
+   list = [1,2,3,4,5,6,'hello', 'goodbye']
+   print list.index(8)
+   ~Output: goodbye
+   ```
+   7. ## Semicolons
    Like javascript it uses to separate statements/actions
    In this languages it uses to separate declarations and operators
    The main purpose of semicolons is to declare or operate in a single line
