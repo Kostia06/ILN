@@ -242,5 +242,7 @@ Code bellow is the best practice of writting code
   This includes: if statements, for loops and while loops.
   # Fun Facts
   -The original name for this programming langauge is supposed to be Lucy, but it was already taken
+  
   -This programming langauge is written with Lua
+  
   -KOS is short for my name
