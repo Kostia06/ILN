@@ -1,0 +1,17 @@
+use 'actions'
+work = true
+
+while work
+    first = input('first number: '):int
+    second = input('second second: '):int
+    action = input('action: ')
+    if action == '+'
+        answer = add(first, second)
+    elif action == '-'
+        answer = sub(first, second)
+    elif action == '*'
+        answer = multiply(first, second)
+    elif action == '/'
+        answer = divide(first, second)
+    print answer
+->
