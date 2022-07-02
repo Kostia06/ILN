@@ -281,11 +281,14 @@ Code bellow is the best practice of writting code
   ->
   ```
   This includes: if statements, for loops and while loops.
+  
   2. ## Type
   As if now you only can use txt file
+  
   3. ## Debug
   Wehn it asks what file would you like to run you add , and say true or false for debug. For example,
   Calculator/main, true
+  
   # Fun Facts
   -The original name for this programming langauge is supposed to be Lucy, but it was already taken
   
