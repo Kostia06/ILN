@@ -273,6 +273,13 @@
   
   There is an shortcut, if you put your directory once, to make sure you dont type out the same directory you can just type **!** and it will search for last directory you used
   
+  ## Example
+  
+  If you are using Calculator folder as well then you will be running the following commands...
+  I asume you are in the same directory as KOS folder and Calculator folder
+  1. cd KOS
+  2. lua main.lua
+  3. ../Calculator/main.txt, true
   
   # IMPORTANT
   
