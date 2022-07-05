@@ -7,7 +7,7 @@
   4. Dynamic based meaning no type annotations needed
   5. Simple, because there are only few keywords
 # REQUIRMENTS
-  Need to have Lua installed, here is the [link](https://www.lua.org/download.html). If you dont want to download lua, you can you use [Replit](https://replit.com/~), which is a free to use website to code in various programming languages.
+  Need to have Lua installed, here is the [link](https://www.lua.org/download.html) or you can you use [Replit](https://replit.com/~), which is a free to use website to code in various programming languages.
 # VARIABLES
   1. ## Declarations
   To declare variables 
