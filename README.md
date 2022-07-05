@@ -7,7 +7,7 @@
   4. Dynamic based meaning no type annotations needed
   5. Simple, because there are only few keywords
 # REQUIRMENTS
-  Need to have Lua installed
+  Need to have Lua installed, here is the [link](https://www.lua.org/download.html). If you dont want to download lua, you can you use [Replit](https://replit.com/~), which is a free to use website to code in various programming languages.
 # VARIABLES
   1. ## Declarations
   To declare variables 
@@ -244,12 +244,15 @@
    If you have mutiple files and you want to use them together then use keyword use and following file that you desire
    
    **Main.txt**
+   
    ``` 
    use 'add'
    print number
    ~Output: 12
    ```
+   
    **Add.txt**
+   
    ``` 
    number = 12
    ```
@@ -257,17 +260,31 @@
    Best practice for this is to create require file and put every require file in there because it can be overwhelming
    
   # ERROR HANDELING
+  
   As of today there is no error handing what so ever, but there is a debug tool
   it will be added in the future
   
+  # RUNNING PROGRAM
+  The only folder you need is KOS, inside KOS folder directory, in a shell or terminal you will write  **lua main.lua** which will run the program
+  
+  After that, it will ask for file directory, which should be an txt file
+  
+  You can add additional argument when putting your file directory, which is a debug tool that show every variable and functions by edding **-file dir-,true**, by default it is off
+  
+  There is an shortcut, if you put your directory once, to make sure you dont type out the same directory you can just type **!** and it will search for last directory you used
+  
+  
   # IMPORTANT
+  
   1. ## Spacing
   Program ignores full lines with this sign ->
   Since this programming language is a block based, sometimes it doesnt know where is the end of the block, for example, in here the code wouldn't know where is the end because there is not futher code to read
+  
   ```
   fun add(num1, num2)
       print num1 + num2
   ```
+  
 Code bellow is the best practice of writting code
   ```
   fun add(num1, num2)
