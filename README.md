@@ -308,6 +308,10 @@ Code bellow is the best practice of writting code
   When it asks what file would you like to run you add , and say true or false for debug. For example,
   Calculator/main, true
   
+  # CONTACT
+  
+  If there any sort of bugs or other, please contact ilnkostia@gmail.com. It would be appreciated
+  
   # FUN FACTS
   
   -The original name for this programming langauge is supposed to be Lucy, but it was already taken
