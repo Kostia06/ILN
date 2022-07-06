@@ -1,5 +1,5 @@
-# KOS
-  This is the first version of the KOS programming langauge
+# ILN
+  This is the first version of the ILN programming langauge
 # ABOUT
   1. Python and Javascript syntax based
   2. Block based, meaning uses space to indetify different parts of code
@@ -265,7 +265,7 @@
   it will be added in the future
   
   # RUNNING PROGRAM
-  The only folder you need is KOS, inside KOS folder directory, in a shell or terminal you will write  **lua main.lua** which will run the program
+  The only folder you need is ILN, inside ILN folder directory, in a shell or terminal you will write  **lua main.lua** which will run the program
   
   After that, it will ask for file directory, which should be an txt file
   
@@ -276,8 +276,8 @@
   ## Example
   
   If you are using Calculator folder as well then you will be running the following commands...
-  I asume you are in the same directory as KOS folder and Calculator folder
-  1. cd KOS
+  I asume you are in the same directory as ILN folder and Calculator folder
+  1. cd ILN
   2. lua main.lua
   3. ../Calculator/main.txt, true
   
@@ -325,6 +325,6 @@ Code bellow is the best practice of writting code
   
   -This programming langauge is written with Lua
   
-  -KOS is short for my name
+  -ILN is short for my last name
 
 © 2022 Kostia Ilnytskyi
