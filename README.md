@@ -311,9 +311,7 @@ Code bellow is the best practice of writting code
   2. ## Type
   As if now you only can use txt file
   
-  3. ## Debug
-  When it asks what file would you like to run you add , and say true or false for debug. For example,
-  Calculator/main, true
+ 
   
   # CONTACT
   
